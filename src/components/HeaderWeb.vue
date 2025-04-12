@@ -152,10 +152,10 @@ const navItems = [
   },
   {
     title: 'Tuyển sinh',
-    to: '',
+    to: '/tuyensinh',
     children: [
-      { name: 'Chương trình đào tạo', to: '' },
-      { name: 'Chuẩn đầu ra', to: '' }
+      { name: 'Chương trình đào tạo', to: '/tuyensinh/chuongtrinhdaotao'},
+      { name: 'Chuẩn đầu ra', to: '/tuyensinh/chuandaura' }
     ]
   },
   {

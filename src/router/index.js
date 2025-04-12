@@ -26,6 +26,11 @@ import TranThiHongThi from '@/components/DSGiangVien/TranThiHongThi.vue'
 import BuiThiThanhThao from '@/components/DSGiangVien/BuiThiThanhThao.vue'
 import VoHoangNhan from '@/components/DSGiangVien/VoHoangNhan.vue'
 
+// Tuyển sinh
+import TuyenSinh from '@/components/TuyenSinh.vue';
+import ChuongTrinhDT from '@/components/ChuongTrinhDT.vue';
+import ChuanDauRa from '@/components/ChuanDauRa.vue';
+
 const routes = [
   { path: '/', name: 'Home', component: Home },
   { path: '/about', name: 'About', component: About },
@@ -52,6 +57,11 @@ const routes = [
   { path: '/tranthihongthi', name: 'toChuyenNganh-Thi', component: TranThiHongThi},
   { path: '/buithithanhthao', name: 'toChuyenNganh-ThanhThao', component: BuiThiThanhThao},
   { path: '/vohoangnhan', name: 'toChuyenNganh-Nhan', component: VoHoangNhan},
+
+  //----Tuyển sinh----
+  { path: '/tuyensinh', name:'TuyenSinh', component: TuyenSinh},
+  { path: '/tuyensinh/chuongtrinhdaotao', name:'ChuongTrinhDaoTao', component: ChuongTrinhDT},
+  { path: '/tuyensinh/chuandaura', name:'ChuanDauRa', component: ChuanDauRa},
 ];
 
 
